@@ -5,5 +5,5 @@ document.body.appendChild(s);
 
 url = "https://yxmlte.github.io/hehgwhov/test.json";
 fetch(url)
-  .then((response) => console.log(response.json()))
+  .then((response) => response.json())
   .then((data) => console.log(data));
